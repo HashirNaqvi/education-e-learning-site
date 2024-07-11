@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&family=Poppins:ital,wght@0,400;0,500;1,300&family=Seaweed+Script&display=swap");
+
+* {
+  text-decoration: none;
+}
+header {
+  background-color: #f3f8ff;
+  height: 100vh;
+}
+.navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navlist li {
+  list-style: none;
+  display: inline-block;
+}
+.navlist li a {
+  color: #525d73;
+  margin-right: 25px;
+  font-size: 18px;
+}
+ul.navlist {
+  display: flex;
+  align-items: center;
+}
+#SignIn {
+  background-color: #def4fe;
+  border: none;
+  color: #04a8ff;
+  font-size: 18px;
+  width: 100px;
+  height: 40px;
+  border-radius: 7px;
+}
+#Login {
+  background-color: #f3f8ff;
+  border: none;
+  border-bottom: 3px solid #04a8ff;
+  font-size: 18px;
+  color: #525d73;
+}
+#new {
+  border: 2px solid #d0e5f2;
+  border-radius: 10px;
+  padding: 2px;
+}
+/* container */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.right {
+  margin-top: 100px;
+}
+.left {
+  margin-top: 150px;
+  margin-left: 70px;
+}
+.left h2 {
+  color: #00acff;
+}
+.left h1 {
+  font-weight: bolder;
+  font-size: 50px;
+}
+.left p {
+  color: #525d73;
+}
+.btn2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.about {
+  display: inline-block;
+  margin-left: 70px;
+  margin-top: 5%;
+}
+.about h3 {
+  color: #10adff;
+  margin-bottom: 0px;
+  margin-top: 50px;
+}
+.section1 {
+  display: flex;
+  align-items: center;
+  width: 80vw;
+}
+.section1 h1 {
+  font-size: 50px;
+  margin-top: 0px;
+}
+.section1 a {
+  margin-left: 600px;
+}
+.section2 {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  justify-content: center;
+  margin-top: 2%;
+}
+.section2 h1 {
+  margin-top: 0px;
+  margin-right: 70px;
+}
+/* Features Section */
+.features {
+  margin-bottom: 70px;
+}
+.features h1 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+.left1 {
+  float: left;
+  margin-right: 100px;
+  margin-left: 70px;
+  margin-top: 100px;
+}
+.left1 h1 {
+  margin-top: 0;
+}
+.left1 p {
+  color: #525d73;
+}
+.right1 {
+  float: right;
+}
